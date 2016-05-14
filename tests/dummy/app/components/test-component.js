@@ -1,0 +1,24 @@
+import Ember from 'ember';
+import chartist from 'chartist';
+
+const { Component } = Ember;
+
+export default Component.extend({
+  didInsertElement() {
+    this._super(...arguments);
+
+    chartist.Line('.chart', {
+      labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      series: [
+        [12, 9, 7, 8, 5],
+        [2, 1, 3.5, 7, 3],
+        [1, 3, 4, 5, 6]
+      ]
+    }, {
+      fullWidth: true,
+      chartPadding: {
+        right: 40
+      }
+    });
+  }
+});
