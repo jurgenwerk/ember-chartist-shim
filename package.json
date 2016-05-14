@@ -17,7 +17,7 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.5.0",
@@ -37,14 +37,12 @@
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
     "ember-try": "^0.2.2",
-    "loader.js": "^4.0.1"
+    "loader.js": "^4.0.1",
+    "ember-cli-babel": "^5.1.6"
   },
   "keywords": [
     "ember-addon"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^5.1.6"
-  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
