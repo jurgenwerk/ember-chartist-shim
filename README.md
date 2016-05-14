@@ -1,6 +1,11 @@
 # Ember-chartist-shim
 
-This README outlines the details of collaborating on this Ember addon.
+Import [Chartist.js](https://gionkunz.github.io/chartist-js/) as an ES6 module in your ember app
+
+```js
+import chartist from 'chartist';
+
+```
 
 ## Installation
 
