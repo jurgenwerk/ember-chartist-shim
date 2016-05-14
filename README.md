@@ -4,7 +4,6 @@ Import [Chartist.js](https://gionkunz.github.io/chartist-js/) as an ES6 module i
 
 ```js
 import chartist from 'chartist';
-
 ```
 
 ## Installation
